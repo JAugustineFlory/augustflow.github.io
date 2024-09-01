@@ -1,7 +1,18 @@
 
 
+body {
+    background: rgb(146, 96, 96);
+    color: white;
+    padding: 20px 50px;
+}
+main {
+    display: flex;
+    flex-flow: column;
+}
 
-.center {align-self: center;}
+.center {align-items: center;
+    text-align: center;
+}
 .left {align-self: flex-start;}
 .border-thick {border: solid black 5px}
 
