@@ -3,3 +3,28 @@
 
 .center {align-self: center;}
 .left {align-self: flex-start;}
+.border-thick {border: solid black 5px}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    grid-template-rows: repeat(40, 1fr);
+}
+#contact_form {
+    grid-area: contact;
+}
+#animated_nav {
+    grid-area: nav;
+}
+#habit_tracker {
+    grid-area: habit;
+}
+#loading_screen {
+    grid-area: loading;
+}
+#progress_tracker {
+    grid-area: progress;
+}
+#planner {
+    grid-area: planner;
+}
