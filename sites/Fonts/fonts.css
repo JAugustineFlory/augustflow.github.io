@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+ 
+
+
+
+
+body {
+    text-align: center;
+    padding: 20px 50px;
+    font-size: larger;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "leftheader rightheader"
+    "left right"
+    ;
+}
+
+#leftheader {grid-area: leftheader;}
+#rightheader {grid-area: rightheader;}
+
+#left {grid-area: left;
+    border-right: 1px solid black;
+}
+#right {grid-area: right;}
+#right, #left {
+    margin: 0;
+    padding: 30px 10px;
+    text-wrap: none;
+}
+
+.header {
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+/* Web Safe Fonts (Left)*/
+.arial {font-family: Arial, Helvetica, sans-serif;}
+.verdana {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.tahoma {font-family:Tahoma, Geneva, Verdana, sans-serif;}
+.trebuchetMs {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.timesNewRoman {font-family: 'Times New Roman', Times, serif;}
+.georgia {font-family: Georgia, 'Times New Roman', Times, serif;}
+.courierNew {font-family: 'Courier New', Courier, monospace;}
+.brushScriptM7 {font-family: 'Brush Script m7';}
+
+/*Web Fonts (Right)*/
+.bangers {font-family: "Bangers", system-ui;}
+
+.chewy {font-family: "Chewy", system-ui;}
+
+.codystar {  font-family: "Codystar", sans-serif;}
+
+.creepster {font-family: "Creepster", system-ui; font-weight: 400;
+    font-style: normal;
+}
+
+.lobster {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dancingScript {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;}
+
+.indieFlower {  font-family: "Indie Flower", cursive;
+}
+
+.pacifico {  font-family: "Pacifico", cursive;
+}
+
+.permanentMarker {  font-family: "Permanent Marker", cursive;
+}
+
+.shadowsIntoLight {  font-family: "Shadows Into Light", cursive;
+}
+.cutiveMono {  font-family: "Cutive Mono", monospace;
+}
+.sourceCodePro {  font-family: "Space Mono", system-ui;
+}
+.spaceMono {  font-family: "Space Mono", monospace;
+}
+.vt323 {  font-family: "VT323", monospace;
+}
+.montserratAlternates {  font-family: "Montserrat Alternates", sans-serif;
+}
+.orbitron {  font-family: "Orbitron", sans-serif;
+}
+.oswald {  font-family: "Oswald", sans-serif;
+}
+.poppins {  font-family: "Poppins", sans-serif;
+}
+.raleway {  font-family: "Raleway", sans-serif;
+}
+.faunaOne {  font-family: "Fauna One", serif;
+}
+.kiwiMaru {  font-family: "Kiwi Maru", serif;
+}
+.merriweather {  font-family: "Merriweather", serif;
+}
+.newTegomin {  font-family: "New Tegomin", serif;
+}
+.spectralSC{  font-family: "Spectral", serif;
+}
