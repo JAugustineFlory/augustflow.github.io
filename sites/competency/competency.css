@@ -1,0 +1,19 @@
+
+body {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img { 
+    max-width: 500px;
+    max-height: 500px;
+    margin: 30px;
+}
+
+
+a {
+    margin-bottom: 40px;
+    font-size: 3em;
+}
