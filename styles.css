@@ -12,7 +12,10 @@ main {
 .center {align-items: center;
     text-align: center;
 }
-.left {align-self: flex-start;}
+.left {
+    align-self: flex-start;
+    text-align: left;
+}
 .border-thick {border: solid black 5px}
 
 .grid {
