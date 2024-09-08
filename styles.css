@@ -1,8 +1,7 @@
 
 
 body {
-    background: rgb(146, 96, 96);
-    color: white;
+    color: rgb(124, 45, 45);
     padding: 20px 50px;
 }
 main {
@@ -18,8 +17,12 @@ main {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(40, 1fr);
-    grid-template-rows: repeat(40, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas: 
+    "fontDisplay fontDisplay . . "
+    "fontDisplay fontDisplay . ."
+    ;
 }
 #contact_form {
     grid-area: contact;
@@ -38,4 +41,15 @@ main {
 }
 #planner {
     grid-area: planner;
+}
+#fontDisplay {
+    grid-area: fonts;
+}
+
+.fontDisplay {
+    max-width: 400px;
+
+}
+.fontsImage {
+    max-width: 400px;
 }
