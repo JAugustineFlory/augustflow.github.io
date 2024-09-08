@@ -23,9 +23,9 @@ main {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(10, 1fr);
     grid-template-areas: 
-    "fontDisplay fontDisplay . . "
-    "fontDisplay fontDisplay . ."
+    "fontDisplay challenge . . "
     ;
+    gap: 10px;
 }
 #contact_form {
     grid-area: contact;
@@ -48,11 +48,17 @@ main {
 #fontDisplay {
     grid-area: fonts;
 }
-
-.fontDisplay {
-    max-width: 400px;
-
+#challenges {
+    grid-area: challenge;
 }
-.fontsImage {
+
+
+.Display {
+    width: 400px;
+    height: 450px;
+    border: 1px solid black;
+}
+.displayImg {
     max-width: 400px;
+    max-height: 300px;
 }
