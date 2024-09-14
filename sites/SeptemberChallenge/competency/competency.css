@@ -1,6 +1,8 @@
 
 body {
     text-align: center;
+    padding-top: 80px;
+    margin: 0;
 }
 a {
     bottom: 0px;
@@ -18,7 +20,14 @@ img {
     margin-bottom: 50px;
 }
 
-
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(to left, rgb(31, 30, 30), rgb(46, 45, 45), rgb(31,30,30));
+    margin: 0;
+    padding: 10px;
+}
 
 @media (max-width: 800px) {
     img {
