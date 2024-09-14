@@ -2,11 +2,13 @@
 
 body {
     color: rgb(124, 45, 45);
-    padding: 20px 50px;
+    padding: 0;
+    margin: 0;
 }
 main {
     display: flex;
     flex-flow: column;
+    padding: 0 50px;
 }
 
 .center {align-items: center;
@@ -18,47 +20,30 @@ main {
 }
 .border-thick {border: solid black 5px}
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-    grid-template-areas: 
-    "fontDisplay challenge . . "
-    ;
-    gap: 10px;
-}
-#contact_form {
-    grid-area: contact;
-}
-#animated_nav {
-    grid-area: nav;
-}
-#habit_tracker {
-    grid-area: habit;
-}
-#loading_screen {
-    grid-area: loading;
-}
-#progress_tracker {
-    grid-area: progress;
-}
-#planner {
-    grid-area: planner;
-}
-#fontDisplay {
-    grid-area: fonts;
-}
-#challenges {
-    grid-area: challenge;
-}
-
 
 .Display {
     width: 400px;
     height: 450px;
     border: 1px solid black;
+    columns: 400px;
+    margin: 10px;
 }
 .displayImg {
-    max-width: 400px;
-    max-height: 300px;
+    width: 100%;
+}
+
+h1 {
+    margin: 20px;
+    margin-left: 45px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(to left, rgb(31, 30, 30), rgb(46, 45, 45), rgb(31,30,30));
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
