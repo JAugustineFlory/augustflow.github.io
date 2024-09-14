@@ -3,8 +3,8 @@ body {
     text-align: center;
 }
 a {
-    bottom: 5px;
-    margin-bottom: 40px;
+    bottom: 0px;
+    margin-top: 40px;
     font-size: 3em;
 }
 img {
@@ -15,6 +15,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     gap: 1em;
+    margin-bottom: 50px;
 }
 
 
