@@ -1,19 +1,31 @@
 
 body {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
-
-img { 
-    max-width: 800px;
-    max-height: 800px;
-    margin: 30px;
-}
-
-
 a {
+    bottom: 5px;
     margin-bottom: 40px;
     font-size: 3em;
+}
+img {
+    width: 100%;
+}
+.display {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 1em;
+}
+
+
+
+@media (max-width: 800px) {
+    img {
+        width: 100%;
+        margin: .5em;
+    }
+    .display {
+        display: inline;
+        columns: 400px;
+    }
 }
