@@ -31,6 +31,8 @@
 body {
     text-align: center;
     font-size: x-large;
+    margin: 0;
+    padding-top: 80px;
 }
 main {
     max-width: 1200px;
@@ -44,6 +46,14 @@ main {
     "leftheader rightheader"
     "left right"
     ;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(to left, rgb(31, 30, 30), rgb(46, 45, 45), rgb(31,30,30));
+    margin: 0;
+    padding: 10px;
 }
 
 #leftheader {grid-area: leftheader;}
@@ -63,6 +73,7 @@ main {
     border-bottom: 1px solid black;
     margin: 0;
     padding-bottom: 30px;
+    color: black;
 }
 
 /* Web Safe Fonts (Left)*/
@@ -136,4 +147,26 @@ main {
 .newTegomin {  font-family: "New Tegomin", serif;
 }
 .spectralSC{  font-family: "Spectral", serif;
+}
+
+
+@media (max-width: 800px){
+    main {
+        max-width: 1200px;
+        min-height: 100vh;
+        justify-content: space-evenly;
+        align-content: center;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "leftheader"
+        "left"
+        "rightheader"
+        "right"
+        ;
+    }
+    #right p{
+        margin: auto;
+    }
 }

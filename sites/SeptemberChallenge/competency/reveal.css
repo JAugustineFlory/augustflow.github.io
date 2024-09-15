@@ -10,7 +10,8 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-    padding: 20px;
+    padding-top: 40px;
+    margin: 0;
 }
 
 /* Header Styles */
@@ -67,4 +68,15 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: linear-gradient(to left, rgb(31, 30, 30), rgb(46, 45, 45), rgb(31,30,30));
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
