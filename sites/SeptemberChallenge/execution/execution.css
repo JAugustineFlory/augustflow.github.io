@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: lightgray;
+    background: rgb(21, 63, 65);
 }
 a {text-decoration: none;}
 
@@ -25,7 +25,8 @@ a {text-decoration: none;}
 .gold-bord {border: solid 1px gold;}
 .bord-rad-twenty {border-radius: 20px;}
 .auto-marg {margin: auto;}
-
+.clear-back {background-color: rgba(255, 255, 255, 0);}
+.white {color: white;}
 
 /*svg images*/
 svg {
@@ -37,7 +38,10 @@ svg {
 
 
 
-
+/*table*/
+table {
+    border-spacing: 100px;
+}
 
 
 
