@@ -1,0 +1,49 @@
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+/*nav-bar*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a {
+    background: blue;
+    color: white;
+    font-size: 1.3em;
+    padding: 10px;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: rgba(11, 11, 189, 0.767) 0 4px 1px;
+}
+
+nav a:hover {
+    background: rgba(28, 28, 216, 0.87);
+}
+
+nav a:active {
+    box-shadow: none;
+    background: rgb(38, 38, 250);
+}
+nav {
+    margin-bottom: 10px;
+}
