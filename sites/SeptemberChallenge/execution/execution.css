@@ -21,9 +21,17 @@ a {text-decoration: none;}
 .bord-rad-fifty {border-radius: 50%}
 .back-white {background: white;}
 .black { color:black; fill: black}
+.gold {color: gold;}
+.gold-bord {border: solid 1px gold;}
+.bord-rad-twenty {border-radius: 20px;}
+.auto-marg {margin: auto;}
 
 
-
+/*svg images*/
+svg {
+    height: 20px;
+    width: 25px;
+}
 
 
 
