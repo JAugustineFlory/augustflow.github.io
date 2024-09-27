@@ -11,10 +11,10 @@ a {text-decoration: none;}
 
 
 /*universal classes*/
-.text-center {
-    text-align: center;
-}
-
+.text-center {text-align: center;}
+.left, .right {position: absolute;}
+.left {left: 5px;}
+.right {right: 5px;}
 
 
 
