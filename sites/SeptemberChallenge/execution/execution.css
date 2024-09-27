@@ -7,6 +7,29 @@ body {
     padding: 0;
     background: lightgray;
 }
+a {text-decoration: none;}
+
+
+/*universal classes*/
+.text-center {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
