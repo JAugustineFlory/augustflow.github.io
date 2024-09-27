@@ -80,6 +80,7 @@ nav a:active {
     box-shadow: none;
     background: rgb(38, 38, 250);
 }
-nav {
-    margin-bottom: 10px;
+h4 {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px
 }
