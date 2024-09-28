@@ -84,3 +84,9 @@ h4 {
     border-bottom: 2px solid black;
     padding-bottom: 20px
 }
+
+button:hover {
+    transition: .6s ease;
+    background: gold;
+    color: white;
+}
