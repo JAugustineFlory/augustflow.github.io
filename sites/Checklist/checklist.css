@@ -13,3 +13,10 @@ a{
 a:hover {
     color:blueviolet;
 }
+main {
+    border-radius: 60px;
+    box-shadow: rgb(70, 48, 122) 0px 0px 4px 1px;
+}
+main:hover {
+    scale: 1.002;
+}
